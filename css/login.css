@@ -47,7 +47,7 @@ label{
     font-size: 17px; 
 }  
 .Uname{  
-    width: 300px;  
+    width: 105%;  
     height: 30px;  
     border: solid; 
     border-color: black;
@@ -57,7 +57,7 @@ label{
     
 }  
 .Pass{  
-    width: 300px;  
+    width: 105%;  
     height: 30px;  
     border: solid; 
     border-color: black;
