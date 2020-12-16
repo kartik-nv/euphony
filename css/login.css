@@ -74,7 +74,8 @@ label{
     border: solid;  
     border-radius: 17px;  
     padding-left: 7px;  
-    color: black;  
+    color: black; 
+    margin-right: 2%;
     
 }
 .check,.log:hover{
