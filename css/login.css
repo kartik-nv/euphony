@@ -6,7 +6,7 @@ body
     background-image:url(https://eskipaper.com/images/hd-wallpaper-37.jpg);
     background-position: center;
     font-family: sans-serif;
-    background-repeat: no-repeat;
+    background-size: 100%;
 }
 header{
     font-family: Old English Text MT;
