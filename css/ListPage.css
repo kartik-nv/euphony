@@ -1,0 +1,115 @@
+body{
+    background-color: #0c0d23;
+}
+header{
+    font-family: Old English Text MT ,Lucida Calligraphy , Harrington;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 250%;
+    background: -webkit-linear-gradient(#0b29ff, #93bdca);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}
+.list1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: cursive;
+    line-height: 90%;  
+    font-size: 141%;
+    margin-top: 2%;
+    padding-left: 7%;
+    border-radius: 15px; 
+    background: -webkit-linear-gradient(#0b29ff, #050838);
+    border: solid;
+}
+div{
+    display: flex;
+    flex-direction: row;
+}
+.playlist{
+    padding-left: 35px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 90%;
+    border: solid;
+    margin-left: 80%;
+    margin-top: -2%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 150%;
+    font-family: Comic Sans MS;
+    background: -webkit-linear-gradient(#0D9BDC, #030852);
+    border-width: 5px;
+}
+.play{
+    margin-left: 30%;
+    opacity: 0.8;
+}
+.play:hover{
+    opacity: 1.0;
+}
+.list2,.list3,.list4,.list5,.list6,.list7{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: cursive;
+    /*background-color: #66689a;*/
+    line-height: 90%;  
+    font-size: 141%;
+    padding-left: 7%;
+    border-radius: 15px;
+    margin-top: 11px;
+    /*background-image: linear-gradient(#00046b, #04b9ff);*/
+    background: -webkit-linear-gradient(#0b29ff, #050838);
+    border: solid;
+}
+.playpause1{
+    margin-left: 263%;
+    margin-right: 53%;
+}
+.note1{
+    margin-right: 53%;
+}
+.playpause{
+    margin-left: 261%;
+}
+.note{
+    margin-left: 51%;
+    margin-right: 54%;
+}
+.lyric{
+    margin-right: 54%;
+}
+.playpause4{
+    margin-left: 260%;
+}
+.playpause5{
+    margin-left: 226%;
+}
+.playpause6{
+    margin-left: 221%;
+}
+.playpause7{
+    margin-left: 256%;
+}
+
+.note1,
+.note,
+.playpause1,
+.playpause4,
+.playpause5,
+.playpause6,
+.playpause7,
+.playpause,
+.play,
+.lyric,
+.download:hover{
+    cursor: pointer;
+}
