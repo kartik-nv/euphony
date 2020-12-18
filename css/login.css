@@ -7,6 +7,7 @@ body
     background-position: center;
     background-size: contain;
     font-family: sans-serif;
+    background-repeat: no-repeat;
 }
 header{
     font-family: Old English Text MT;
