@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+body{
+    background-color: #060a6d;
+}
+header{
+    color: cornflowerblue;
+    margin-left: 27%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    cursor: default;
+}
+h1{
+  margin-top: -8%;
+  margin-left: 2%;
+  font-size: 535%;
+  background: -webkit-linear-gradient(#0b29ff, #93bdca);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Langar' ,Old English Text MT;
+}
+.music{
+    margin-left: 1%;
+}
+.list1{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: cursive;
+    line-height: 90%;  
+    font-size: 141%;
+    margin-top: 2%;
+    padding-left: 7%;
+    border-radius: 15px; 
+    background: -webkit-linear-gradient(#2f50f1,#6c93d9);
+    border: solid;
+}
+.list1:hover{
+    line-height: 130%;
+}
+div{
+    display: flex;
+    flex-direction: row;
+}
+.playlist{
+    padding: 5px;
+    line-height: 90%;
+    border: solid;
+    margin-left: 80%;
+    margin-top: -6%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 150%;
+    font-family: Comic Sans MS;
+    background: -webkit-linear-gradient(#0D9BDC, #030852);
+    border-width: 5px;
+    cursor: default;
+}
+.playlist:hover{
+    padding: 10px;
+}
+.play{
+    margin-left: 30%;
+    opacity: 0.8;
+}
+.play:hover{
+    opacity: 1.0;
+}
+.list2,.list3,.list4,.list5,.list6,.list7{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: cursive;
+    line-height: 90%;  
+    font-size: 141%;
+    padding-left: 7%;
+    border-radius: 15px;
+    margin-top: 11px;
+    background: -webkit-linear-gradient(#2f50f1,#6c93d9);
+    border: solid;
+}
+.list2:hover,
+.list3:hover,
+.list4:hover,
+.list5:hover,
+.list6:hover,
+.list7:hover{
+    line-height: 130%;
+}
+.playpause1{
+    margin-left: 263%;
+    margin-right: 53%;
+    opacity: 0.75;
+}
+.playpause1:hover{
+    opacity: 1.0;
+}
+.note1{
+    margin-right: 53%;
+    opacity: 0.75;
+}
+.note1:hover{
+    opacity: 1.0;
+}
+.playpause{
+    margin-left: 261%;
+    opacity: 0.75;
+}
+.playpause:hover{
+    opacity: 1.0;
+}
+.note{
+    margin-left: 51%;
+    margin-right: 54%;
+    opacity: 0.75;
+}
+.note:hover{
+    opacity: 1.0;
+}
+.lyric{
+    margin-right: 54%;
+    opacity: 0.65;
+}
+.lyric:hover{
+    opacity: 1.0;
+}
+.playpause4{
+    margin-left: 260%;
+    opacity: 0.75;
+}
+.playpause4:hover{
+    opacity: 1.0;
+}
+.playpause5{
+    margin-left: 226%;
+    opacity: 0.75;
+}
+.playpause5:hover{
+    opacity: 1.0;
+}
+.playpause6{
+    margin-left: 221%;
+    opacity: 0.75;
+}
+.playpause6:hover{
+    opacity: 1.0;
+}
+.playpause7{
+    margin-left: 256%;
+    opacity: 0.75;
+}
+.playpause7:hover{
+    opacity: 1.0;
+}
+.download{
+    opacity: 0.6;
+}
+.download:hover{
+    opacity: 1.0;
+}
+.note1,
+.note,
+.playpause1,
+.playpause4,
+.playpause5,
+.playpause6,
+.playpause7,
+.playpause,
+.play,
+.lyric,
+.download:hover{
+    cursor: pointer;
+}
